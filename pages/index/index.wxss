@@ -1,21 +1,106 @@
 /**index.wxss**/
-.userinfo {
+page {
+  background-color: #F1F2F3;
+}
+
+.logo {
+  text-align: center;
+  margin: 70rpx 0 110rpx;
+  font-size: 40px;
+}
+
+.chunk {
+  margin: auto;
+  width: 500rpx;
+  color: #fff;
+}
+
+.pdf-parse {
+  margin-bottom: 240rpx;
+}
+
+.pdf-parse .link button {
+  display: inline;
+  color: #fff;
+  background-color: transparent;
+}
+
+.chunk .title {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 30rpx 15rpx;
+  border-radius: 25rpx;
+  background-color: #FA5C5C;
+  box-shadow: 0 0 16px rgba(0,0,0,0.16);
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.chunk .link {
+  width: 400rpx;
+  margin: auto;
+  padding: 30rpx 15rpx;
+  text-align: center;
+  font-weight: 800;
+  background-color: #000;
+  border-bottom-left-radius: 25rpx;
+  border-bottom-right-radius: 25rpx;
+  box-shadow: 0 0 16px rgba(0,0,0,0.16);
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.chunk .title image {
+  width: 280rpx;
+  height: 120rpx;
+  margin-right: 15rpx;
 }
 
-.usermotto {
-  margin-top: 200px;
+.chunk .title .desc text {
+  font-size: 20rpx;
+  font-weight: 300;
+}
+
+.chunk .title .desc .name {
+  font-size: 30rpx;
+  font-weight: 800;
+}
+
+.export-file .title {
+  background-color: #0076CE;
+}
+
+.export-file .link {
+  background-color: #fff;
+}
+
+.export-file .link button {
+  color: #0076CE;
+  background-color: unset !important;
+  display: inline;
+  padding: 20rpx !important;
+}
+
+.export-file .link button image {
+  vertical-align: middle;
+  width: 60rpx;
+  height: 60rpx;
+}
+
+button {
+  margin-top: 25rpx;
+}
+.format-type {
+  width: 100%;
+  margin: 20px 5px;
+  display: inline-block;
+}
+.format-type button {
+  margin-top: 25rpx;
+  color: #fff;
+  background-color: #7c878e;
+}
+.format-type button:nth-of-type(1).active {
+  background-color: #294F90;
+}
+.format-type button:nth-of-type(2).active {
+  background-color: #1A6D41;
+}
+.format-type button:nth-of-type(3).active {
+  background-color: #D14520;
 }

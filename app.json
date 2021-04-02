@@ -1,13 +1,15 @@
 {
   "pages": [
-    "pages/detail/detail",
+    "pages/exportpdf/index",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/detail/detail",
+    "pages/logs/logs",
+    "pages/exportpdf"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "PDF工具",
     "navigationBarTextStyle": "black"
   },
   "style": "v2",

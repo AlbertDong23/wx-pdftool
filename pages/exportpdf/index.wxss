@@ -1,0 +1,108 @@
+/* pages/exportpdf/index.wxss */
+page {
+  background-color: #FA5C5C;
+}
+
+.header {
+  color: #fff;
+  font-weight: 600;
+  font-size: 60rpx;
+  text-align: center;
+  margin: 100rpx 0 90rpx;
+}
+
+.chunk {
+  margin: auto;
+  margin-bottom: 120rpx;
+  width: 500rpx;
+  color: #FA5C5C;
+  background-color: #fff;
+  border-radius: 25rpx;
+  padding: 30rpx 30rpx 40rpx;
+  box-shadow: 0 0 16px rgba(0,0,0,0.16);
+}
+
+.chunk .title {
+  margin-bottom: 50rpx;
+}
+
+.chunk .title text {
+  font-size: 24rpx;
+}
+
+.chunk .title .bold {
+  font-weight: 700;
+  font-size: 30rpx;
+}
+
+.chunk .action {
+  text-align: center;
+}
+
+.chunk .action button {
+  display: inline;
+  font-size: 25rpx;
+  background: unset !important;
+}
+
+.chunk .title .format-type {
+  display: flex;
+  margin-top: 35rpx;
+}
+
+.chunk .title .type {
+  text-align: center;
+}
+
+.chunk .title .type text {
+  font-size: 25rpx;
+}
+
+.chunk .title .type image {
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.actions {
+  margin-top: 260rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.actions .back-home button {
+  display: inline;
+  margin-right: 30rpx;
+  padding: 0 !important;
+  background: transparent;
+}
+
+.actions .back-home button image {
+  width: 60rpx;
+  height: 60rpx;
+  padding: 12rpx;
+  border-radius: 80rpx;
+  vertical-align: middle;
+  background-color: #fff;
+  box-shadow: 0 0 16px rgba(0,0,0,0.16);
+}
+
+.actions .parse-image button {
+  display: inline-block;
+  border-radius: 40rpx;
+  padding: 12rpx 0;
+  box-shadow: 0 0 16px rgba(0,0,0,0.16);
+}
+.actions .parse-image button image {
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+}
+
+.actions .parse-image button text {
+  margin-left: 10rpx;
+  font-size: 26rpx;
+}
+
+.actions .parse-image button .take-photo {
+  margin-left: 40rpx;
+}

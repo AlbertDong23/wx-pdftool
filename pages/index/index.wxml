@@ -1,13 +1,21 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+<!-- -->
+<view>
+<view class="logo">啦啦啦</view>
+<view class="chunk pdf-parse">
+  <view class="title">
+    <image src="../../image/ICON3_pdfTransferFormat.svg"></image>
+    <view class="desc">
+      <text class="name">PDF to Word</text>
+      <view>
+        <text>选择一个PDF文件，可导出为Word / Excel，并分享给好友</text>
+      </view>
+    </view>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <view class="link" style="padding: 36rpx 15rpx;" bindtap="uploadPdf">
+  <button>请选择PDF文件</button>
   </view>
+</view>
+<view class="chunk export-file">
+  <image src="../../image/cat.jpg"/>
+</view>
 </view>

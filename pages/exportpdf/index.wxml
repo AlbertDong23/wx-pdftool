@@ -1,0 +1,31 @@
+<!--pages/exportpdf/index.wxml-->
+<view>
+  <view class="header">PDF 格式转换</view>
+  <view class="chunk">
+    <view class="title">
+      <text class="bold">已选文件</text>
+      <view class="name">
+        <!-- <text>dgfdgdfgfd/gfdgfd/gfdgd/gfd/</text> -->
+        <view class="bold">{{fileObj.name}}</view>
+      </view>
+    </view>
+    <view class="action" bindtap="uploadFile">
+      <button>重新选择PDF文件</button>
+    </view>
+  </view>
+  <view class="chunk">
+    <view class="title" style="margin-bottom: 20rpx;">
+      <text class="bold">选择导出文件格式</text>
+      <view class="format-type">
+        <view class="type" data-type="word" bindtap="selectType">
+          <image src="../../icons/ICON3_docx.svg" />
+          <text style="color: #185ABD;">Word</text>
+        </view>
+        <view class="type" data-type="excel" bindtap="selectType">
+          <image src="../../icons/ICON3_XLS.svg" />
+          <text style="color: #197B42;">Excel</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
