@@ -1,11 +1,11 @@
 <!-- -->
 <view>
-<view class="logo">啦啦啦</view>
+<view class="logo">PDF转换工具</view>
 <view class="chunk pdf-parse">
   <view class="title">
     <image src="../../image/pdfFormat.svg"></image>
     <view class="desc">
-      <text class="name">PDF to Word</text>
+      <text class="name">PDF to Word/Excel</text>
       <view>
         <text>选择一个PDF文件，可导出为Word / Excel，并分享给好友</text>
       </view>
@@ -16,6 +16,7 @@
   </view>
 </view>
 <view class="chunk export-file">
-  <image src="../../image/cat.jpg"/>
+  <!-- <image src="../../image/cat.jpg"/> -->
+  <!-- <text style="color: #C43E1C;">选择一个PDF文件，可导出为Word / Excel，并分享给好友</text> -->
 </view>
 </view>

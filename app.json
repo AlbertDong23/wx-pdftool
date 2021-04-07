@@ -1,8 +1,7 @@
 {
   "pages": [
-    "pages/exportpdf/index",
     "pages/index/index",
-
+    "pages/exportpdf/index",
     "pages/detail/detail",
     "pages/logs/logs"
   ],
