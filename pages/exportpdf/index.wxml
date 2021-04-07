@@ -18,12 +18,16 @@
       <text class="bold">选择导出文件格式</text>
       <view class="format-type">
         <view class="type" data-type="word" bindtap="selectType">
-          <image src="../../icons/ICON3_docx.svg" />
+          <image src="../../image/ICON3_docx.svg" />
           <text style="color: #185ABD;">Word</text>
         </view>
         <view class="type" data-type="excel" bindtap="selectType">
-          <image src="../../icons/ICON3_XLS.svg" />
+          <image src="../../image/ICON3_XLS.svg" />
           <text style="color: #197B42;">Excel</text>
+        </view>
+        <view class="type" data-type="ppt" bindtap="selectType">
+          <image src="../../image/ICON3_ppt.svg" />
+          <text style="color: #C43E1C;">PPT</text>
         </view>
       </view>
     </view>

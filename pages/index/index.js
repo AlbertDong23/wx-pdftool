@@ -17,12 +17,13 @@ Page({
       },
       fail(res) {
         wx.showToast({
-          title: 'Upload File Failed!',
+          title: '上传文件失败!',
           icon: 'error',
           duration: 5000,
         })
         console.log(res)
       }
     })
-  }
+  },
+
 })

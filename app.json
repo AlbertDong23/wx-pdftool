@@ -2,9 +2,9 @@
   "pages": [
     "pages/exportpdf/index",
     "pages/index/index",
+
     "pages/detail/detail",
-    "pages/logs/logs",
-    "pages/exportpdf"
+    "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",

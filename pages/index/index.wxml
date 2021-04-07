@@ -3,7 +3,7 @@
 <view class="logo">啦啦啦</view>
 <view class="chunk pdf-parse">
   <view class="title">
-    <image src="../../image/ICON3_pdfTransferFormat.svg"></image>
+    <image src="../../image/pdfFormat.svg"></image>
     <view class="desc">
       <text class="name">PDF to Word</text>
       <view>
