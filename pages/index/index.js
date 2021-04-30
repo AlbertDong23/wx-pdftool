@@ -2,6 +2,12 @@
 const app = getApp();
 
 Page({
+  // added share button on the menu
+  onLoad(){
+    wx.showShareMenu({
+      withShareTicket: true,
+    })
+  },
   uploadPdf() {
     wx.chooseMessageFile({
       count: 1,

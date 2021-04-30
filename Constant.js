@@ -1,4 +1,4 @@
-const prefix ='http://10.17.2.127:5000/pdfparser/';
+const prefix ='https://www.pdfparser.cn/pdfparser/';
 
 export const URL = {
   POST_UploadPDFFiles: `${prefix}convert/wx/pdf/{type}`,
@@ -11,7 +11,7 @@ export const URL = {
 }
 
 export const loginUser = 'admin';
-export const loginPws = '12345';
+export const loginPws = 'ocr666888';
 
 export const token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MTcwNjc3NDUsIm5iZiI6MTYxNzA2Nzc0NSwianRpIjoiYWU0MjhjNzctMmQ0Zi00Mzg3LWE3YWMtYjAyMTNhYzg5MjVjIiwiZXhwIjoxNjE3MDk3NzQ1LCJpZGVudGl0eSI6eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImVtYWlsIjoicm9ja3pAc3lubmV4LmNvbSJ9LCJmcmVzaCI6ZmFsc2UsInR5cGUiOiJhY2Nlc3MifQ.s-zrWvi-gBJTE6GAPY0885X5U5O_T3fLxMolda2Gf5Y';
 
